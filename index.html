@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Transforma Nota</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Registra Alunos</h1>
+    </header>
+
+    <section>
+        <div>
+            Nome do Aluno: 
+            <input type="text" name="txtnome" id="txtnome">
+            Nota:
+            <input type="number" name="txtnum" id="txtnum">
+            <input type="button" value="Registrar" id = 'btn' onclick="insereAluno()" onkeypress="insereAluno()">
+            <br><br>
+            <select name="lista" id="lista" size='1' onclick="mostraAluno()">
+                <option value="">Registro de Alunos</option>
+            </select>
+        </div>
+        
+        <div id = 'res'>
+            
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy;Lamenkazu</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

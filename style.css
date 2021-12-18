@@ -1,0 +1,33 @@
+body{
+    font: normal 16pt Arial;
+    background-color: rgb(171, 98, 238);
+}
+
+header{
+    text-align: center;
+    color: rgb(61, 0, 0);
+}
+
+section{
+    background-color: cornsilk;
+    border-radius: 5px;
+    padding: 15px;
+    width: 500px;
+    margin: auto;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.507);
+
+}
+
+input#txtnome{
+    width: 70px;
+}
+
+input#txtnum{
+    width: 50px;
+}
+
+footer{
+    text-align: center;
+    color: rgb(61, 0, 0);
+    font-style: italic;
+}
